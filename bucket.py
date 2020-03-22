@@ -1,3 +1,9 @@
+class ItemExistsException(Exception):
+    pass
+
+class NotFoundException(Exception):
+    pass
+
 class BucketItem:
     def __init__(self, key, data):
         self.key = key
